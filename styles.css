@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  background-color: #fcfafa;
+}
+
+header {
+  font-family: 'Marck Script', cursive;
+  font-size: 50px;
+}
+
+#subhead {
+  font-family: 'Anton';
+  font-size: 20px;
+  margin: 15px auto;
+  max-width: 650px;
+  max-height: 60px;
+}
+
+#subhead div {
+  display: inline;
+  margin: 0 10px;
+}
+
+.gameButton {
+  background-color: gold;
+  padding: 5px 10px;
+}
+
+.gameButton:hover, .endButton:hover{
+  cursor: pointer;
+  box-shadow: -3px 3px 5px rgb(38, 38, 38), 2px 3px 5px rgb(38, 38, 38);
+}
+
+table,
+tr,
+td {
+  border: 0.5px solid white;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+tr {
+  height: 13px;
+}
+
+td {
+  height: 13px;
+  width: 13px;
+  background-color: rgb(84, 160, 247);
+}
+
+/* color code */
+.player {
+  background-color: rgb(235, 238, 51);
+}
+
+.goal {
+  background-color: rgb(10, 248, 10) !important;
+}
+
+.alive {
+  background-color: rgb(250, 64, 51) !important;
+}
+
+/* dialog box on end of each stage */
+#stageEnd {
+  position: absolute;
+  text-align: center;
+  font-family: 'Marck Script', cursive;
+  font-size: 16px;
+  top: 40%;
+  left: 35%;
+  width: 30%;
+  height: 20%;
+  padding: 5px 0;
+  z-index: 2;
+  border-radius: 15px;
+  background-color: rgb(238, 223, 223);
+}
+
+.blurred {
+  filter: blur(3px);
+}
+
+.endButton {
+  font-family: 'Anton';
+  font-size: 18px;
+  display: block;
+  background-color: rgb(223, 190, 5);
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 50px;
+  line-height: 50px;
+  max-width: 30%;
+}
